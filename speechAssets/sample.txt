@@ -1,0 +1,5 @@
+StartQuiz start the quiz with nine questions and we are three players
+player names are  hi hello and me
+Answer answer is One
+Quit stop
+NextQuestion next question
