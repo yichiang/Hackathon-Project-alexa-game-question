@@ -1,0 +1,7 @@
+
+StartQuiz start the quiz with {NumberOfQuestion} questions and we are {NumberOfPlayers} players.
+PlayerName player names are {fname|FirstName} {mname|MiddleName} and {lname|LastName}
+Answer {UserAnswer}
+Answer answer is {UserAnswer}
+Quit stop
+NextQuestion next question

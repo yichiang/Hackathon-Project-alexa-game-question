@@ -1,0 +1,53 @@
+
+{
+ "intents": [
+   {
+     "intent": "Quit"
+   },
+   {
+     "intent": "NextQuestion"
+   },
+   {
+     "intent": "Answer",
+     "slots": [
+       {
+         "name": "UserAnswer",
+         "type": "AMAZON.NUMBER"
+       }
+     ]
+   },
+   {
+     "intent": "AMAZON.HelpIntent"
+   },
+   {
+     "intent": "StartQuiz",
+     "slots": [
+       {
+         "name": "NumberOfQuestion",
+         "type": "AMAZON.NUMBER"
+       },
+       {
+         "name": "NumberOfPlayers",
+         "type": "AMAZON.NUMBER"
+       }
+     ]
+   },
+   {
+     "intent": "PlayerName",
+     "slots": [
+       {
+         "name": "FirstName",
+         "type": "AMAZON.LITERAL"
+       },
+       {
+         "name": "MiddleName",
+         "type": "AMAZON.LITERAL"
+       },
+       {
+         "name": "LastName",
+         "type": "AMAZON.LITERAL"
+       }
+     ]
+   }
+ ]
+}
